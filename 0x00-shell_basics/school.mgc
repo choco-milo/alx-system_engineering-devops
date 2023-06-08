@@ -1,3 +1,2 @@
 #!/bin/bash
-echo '0	string  SCHOOL-DATA  School data file\n>4	byte    0x01          Version 1\n>5	short   0x0000        Empty field\n>7	byte    0x02          File format: Binary' > school.mgc
-
+file -m school.mgc your_school_data_file
