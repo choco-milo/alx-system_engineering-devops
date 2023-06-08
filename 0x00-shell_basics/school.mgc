@@ -1,2 +1,4 @@
 #!/bin/bash
-file -m school.mgc your_school_data_file
+cat <<EOF > school.mgc
+0   string   SCHOOL   School data file
+EOF
